@@ -1,7 +1,0 @@
-syntax = "proto3";
-package groovy.groovy;
-
-option go_package = "groovy/x/groovy/types";
-
-// Msg defines the Msg service.
-service Msg {}
