@@ -1,0 +1,12 @@
+syntax = "proto3";
+package groovy.groovy;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "groovy/x/groovy/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
